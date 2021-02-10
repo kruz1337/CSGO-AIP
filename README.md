@@ -1,5 +1,5 @@
 # CSGO-AIP
-This repository have a parser project for Counter Strike Global Offensive. It's fully open source and regex compatible project.
+This repository has a parser project for Counter Strike Global Offensive. It's fully open source and regex compatible project.
 
 ![Image of RequestX International Developer Group on Discord](https://raw.githubusercontent.com/Kruziikrel1/CSGO-AIP/main/thumbnail.png)
 
