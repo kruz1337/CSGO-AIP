@@ -80,7 +80,7 @@ namespace CSGO_Advanced_Item_Parser
 
             //Part #1 - First Process
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
-            Console.Title = "CS:GO | Advanced Item Parser v" + String.Format(version.Major.ToString() + "." + version.Minor.ToString());
+            Console.Title = "CS:GO | Advanced Item Parser v" + String.Format(version.Major + "." + version.Minor);
             createAscii();
             Console.WriteLine("Waiting for CS:GO to open...\n".PadLeft(1), Console.ForegroundColor = ConsoleColor.Yellow, Console.BackgroundColor = ConsoleColor.DarkMagenta);
             Console.ResetColor();
