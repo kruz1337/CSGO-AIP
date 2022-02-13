@@ -122,6 +122,7 @@ namespace CSGO_Advanced_Item_Parser
                     for (int i = 1; i < Regex.Matches(_itemscdnFileLocation, "_" + m.Groups[2].Value + "=").Count + 1; i++)
                     {
                         skinsName_cdn2.Add(m.Groups[2].Value);
+
                     }
                 }
 
@@ -144,10 +145,12 @@ namespace CSGO_Advanced_Item_Parser
                     blankTranslation = translation;
                     Match m2 = Regex.Match(_englishFileLocation, @"""" + blankTranslation + @""".*""(.*)""", options2);
                     skinsName.Add(m2.Groups[1].Value);
+
                 }
                 else
                 {
                     skinsName.Add(m.Groups[1].Value);
+
                 }
             }
 
@@ -156,18 +159,20 @@ namespace CSGO_Advanced_Item_Parser
             {
                 string blankLink = null;
 
-                foreach (Match m in Regex.Matches(_itemscdnFileLocation, links + @"=(.*)", options))
+                foreach (Match m in Regex.Matches(_itemscdnFileLocation, "_" + links + @"=(.*)", options))
                 {
                     if (m.Groups[1].Value == string.Empty)
                     {
                         blankLink = links;
 
-                        Match m2 = Regex.Match(_itemscdnFileLocation, blankLink + @"=(.*)", options2);
+                        Match m2 = Regex.Match(_itemscdnFileLocation, "_" + blankLink + @"=(.*)", options2);
                         skinsImage.Add(m2.Groups[1].Value);
+
                     }
                     else
                     {
                         skinsImage.Add(m.Groups[1].Value);
+
                     }
                 }
             }
@@ -194,7 +199,7 @@ namespace CSGO_Advanced_Item_Parser
             {
                 foreach (var total4_h in total3)
                 {
-                    foreach (Match m in Regex.Matches(total4_h, @"http:..media.steampowered.com.apps.730.icons.econ.default_generated.(.{0,35}" + wpnNames + "_light_large" + ")"))
+                    foreach (Match m in Regex.Matches(total4_h, @"http:..media.steampowered.com.apps.730.icons.econ.default_generated.(.{0,35}" + "_" + wpnNames + "_light_large" + ")"))
                     {
                         if (m.Groups[1].Value == string.Empty)
                         {
@@ -206,6 +211,7 @@ namespace CSGO_Advanced_Item_Parser
                         }
                     }
                 }
+
             }
 
             //Part #9- Zip finish list
