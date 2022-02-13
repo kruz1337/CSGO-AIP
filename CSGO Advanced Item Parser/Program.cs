@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 using System;
 using System.Linq;
 using System.Threading;
+using System.Reflection;
 
 namespace CSGO_Advanced_Item_Parser
 {
@@ -78,7 +79,8 @@ namespace CSGO_Advanced_Item_Parser
             string pattern2 = @"}[\s]*""([\d]+)""[\s]*{[\s]*""name""[\s]*""([a-zA-Z0-9_]+)""[\s]*""prefab";
 
             //Part #1 - First Process
-            Console.Title = "CS:GO | Advanced Item Parser v1.0";
+            Version version = Assembly.GetExecutingAssembly().GetName().Version;
+            Console.Title = "CS:GO | Advanced Item Parser v" + String.Format(version.Major.ToString() + "." + version.Minor.ToString());
             createAscii();
             Console.WriteLine("Waiting for CS:GO to open...\n".PadLeft(1), Console.ForegroundColor = ConsoleColor.Yellow, Console.BackgroundColor = ConsoleColor.DarkMagenta);
             Console.ResetColor();
