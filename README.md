@@ -4,7 +4,7 @@ This repository has a parser project for Counter-Strike: Global Offensive. It's 
 ![Image of RequestX International Developer Group on Discord](https://raw.githubusercontent.com/Kruziikrel1/CSGO-AIP/main/thumbnail.png)
 
 ## How to use CS:GO AIP Software?
-* First of all you should download on Releases page. [CSGOAIPV1.zip](https://github.com/Kruziikrel1/CSGO-AIP/releases/)
+* First of all you should download on Releases page. [CSGOAIP.zip](https://github.com/Kruziikrel1/CSGO-AIP/releases/)
 
 * Extract zip file.
 
