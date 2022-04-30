@@ -16,8 +16,6 @@ This repository has a parser project for Counter-Strike: Global Offensive. It's 
 
 * That's all, enjoy it :)
 
-<br/>
-
 ## How to build CS:GO AIP Project files?
 * First of all you should download project files on project page or clone this repository from GitBash or GitHub Desktop on your PC. [CSGOAIPV1.zip](https://github.com/Kruziikrel1/CSGO-AIP)
 
