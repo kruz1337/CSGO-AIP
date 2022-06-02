@@ -1,10 +1,10 @@
 # CSGO-AIP
 This repository has a parser project for Counter-Strike: Global Offensive. It's fully open source and regex compatible project.
 
-![Image of RequestX International Developer Group on Discord](https://raw.githubusercontent.com/Kruziikrel1/CSGO-AIP/main/thumbnail.png)
+![Image of RequestX International Developer Group on Discord](https://raw.githubusercontent.com/kruz1337/CSGO-AIP/main/thumbnail.png)
 
 ## How to use CS:GO AIP Software?
-* First of all you should download on Releases page. [CSGOAIP.zip](https://github.com/Kruziikrel1/CSGO-AIP/releases/)
+* First of all you should download on Releases page. [CSGOAIP.zip](https://github.com/kruz1337/CSGO-AIP/releases/)
 
 * Extract zip file.
 
@@ -17,7 +17,7 @@ This repository has a parser project for Counter-Strike: Global Offensive. It's 
 * That's all, enjoy it :)
 
 ## How to build CS:GO AIP Project files?
-* First of all you should download project files on project page or clone this repository from GitBash or GitHub Desktop on your PC. [CSGOAIPV1.zip](https://github.com/Kruziikrel1/CSGO-AIP)
+* First of all you should download project files on project page or clone this repository from GitBash or GitHub Desktop on your PC. [CSGOAIPV1.zip](https://github.com/kruz1337/CSGO-AIP)
 
 * If you download project files with manual method you need extract zip file.
 
